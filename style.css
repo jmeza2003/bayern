@@ -1,0 +1,274 @@
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	background-color: #141414;
+	display: block;
+}
+
+.topbox {
+	height: 50%;
+	width: 100%;
+	display: flex;
+}
+
+.pics {
+	height: 100%;
+	width: 40%;
+	display: flex;
+	background-color: #0066B2;
+	align-items: center;
+	justify-content: center;
+}
+
+.reset {
+	height: 100%;
+	width: 20%;
+	display: flex; 
+	background-color: #FFFFFF;
+}
+
+.playerbox {
+	height: 50%;
+	width: 100%;
+	display: block;
+}
+
+.row-white {
+	height: 50%;
+	width: 100%;
+	display: flex;
+	background-color: #FFFFFF;
+}
+
+.contain-image {
+	max-height:110%;
+	max-width: 110%;
+	overflow: hidden;
+}
+
+.lewa{
+	content:url("images/lewa.jpg");	
+}
+.logo-contain {
+	max-height:50%;
+	max-width: 90%;
+}
+
+.center-horizontal {
+	justify-content: center;
+}
+
+.center-vertical {
+	align-items: center;
+}
+
+.alaba{
+	height: 100%;
+	width: calc(100%/5);
+	display: flex;
+	background-color: #DC052D;
+}
+
+.contain-image2 {
+	max-height:75%;
+	max-width: 75%;
+}
+
+.gnabry{
+	height: 100%;
+	width: calc(100%/5);
+	display: flex;
+	background-color: #FFFFFF;
+}
+
+.goretzka{
+	height: 100%;
+	width: calc(100%/5);
+	display: flex;
+	background-color: #DC052D;
+}
+
+.hummels{
+	height: 100%;
+	width: calc(100%/5);
+	display: flex;
+	background-color: #FFFFFF;
+}
+
+.james{
+	height: 100%;
+	width: calc(100%/5);
+	display: flex;
+	background-color: #DC052D;
+}
+
+.row-red {
+	height: 50%;
+	width: 100%;
+	display: flex;
+	background-color: #DC052D;
+}
+
+.jerome{
+	height: 100%;
+	width: calc(100%/5);
+	display: flex;
+	background-color: #FFFFFF;
+}
+
+.kimmich{
+	height: 100%;
+	width: calc(100%/5);
+	display: flex;
+	background-color: #DC052D;
+}
+
+.robben{
+	height: 100%;
+	width: calc(100%/5);
+	display: flex;
+	background-color: #FFFFFF;
+}
+
+.muller {
+	height: 100%;
+	width: calc(100%/5);
+	display: flex;
+	background-color: #DC052D;
+}
+
+.neuer{
+	height: 100%;
+	width: calc(100%/5);
+	display: flex;
+	background-color: #FFFFFF;
+}
+
+@media screen and (max-width: 600px) {
+	body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	display: block;
+	}
+
+	.topbox {
+		height: 25%;
+		width: 100%;
+		display: flex;
+	}
+
+	.pics {
+		height: 100%;
+		width: calc(100%/3);
+		display: flex;
+		background-color: #0066B2;
+	}
+
+	.reset {
+		height: 100%;
+		width: calc(100%/3);
+		display: flex; 
+		background-color: #FFFFFF;
+	}
+
+	.playerbox {
+		height: 75%;
+		width: 100%;
+		display: flex;
+	}
+
+	.row-white {
+		height: 100%;
+		width: 50%;
+		display: block;
+		background-color: #FFFFFF;
+	}
+	
+	.contain-image {
+	max-height:100%;
+	max-width: 100%;
+	overflow: hidden;
+	}
+
+	.lewa{
+		content:url("images/lewa.png");
+	}
+	.alaba{
+		height: calc(100%/5);
+		width: 100%;
+		display: flex;
+		background-color: #DC052D;
+	}
+
+	.gnabry{
+		height: calc(100%/5);
+		width: 100%;
+		display: flex;
+		background-color: #FFFFFF;
+	}
+
+	.goretzka{
+		height: calc(100%/5);
+		width: 100%;
+		display: flex;
+		background-color: #DC052D;
+	}
+
+	.hummels{
+		height: calc(100%/5);
+		width: 100%;
+		display: flex;
+		background-color: #FFFFFF;
+	}
+
+	.james{
+		height: calc(100%/5);
+		width: 100%;
+		display: flex;
+		background-color: #DC052D;
+	}
+
+	.row-red {
+		height: 100%;
+		width: 50%;
+		display: block;
+		background-color: #DC052D;
+	}
+
+	.jerome{
+		height: calc(100%/5);
+		width: 100%;
+		display: flex;
+		background-color: #FFFFFF;
+	}
+
+	.kimmich{
+		height: calc(100%/5);
+		width: 100%;
+		display: flex;
+		background-color: #DC052D;
+	}
+
+	.robben{
+		height: calc(100%/5);
+		width: 100%;
+		display: flex;
+		background-color: #FFFFFF;
+	}
+
+	.muller {
+		height: calc(100%/5);
+		width: 100%;
+		display: flex;
+		background-color: #DC052D;
+	}
+
+	.neuer{
+		height: calc(100%/5);
+		width: 100%;
+		display: flex;
+		background-color: #FFFFFF;
+	}
+}
